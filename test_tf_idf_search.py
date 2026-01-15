@@ -1,4 +1,4 @@
-from tf_idf_solved import tf_idf_search
+from tf_idf_search import tf_idf_search
 
 documents = [
     "cats are small animals",
@@ -25,6 +25,3 @@ def test_tf_idf_search_2():
     expected_doc = "cars and bikes are vehicles"
     pred_doc = tf_idf_search(query, documents)
     assert pred_doc == expected_doc, f"Expected: {expected_doc}, but got: {pred_doc}"
-
-test_tf_idf_search_1()
-test_tf_idf_search_2()

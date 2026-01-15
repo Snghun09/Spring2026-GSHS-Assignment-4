@@ -1,4 +1,4 @@
-# MLP for XOR
+# Search with TF-IDF
 
 In this assignment, you will implement a text search system using the TF-IDF (Term Frequency–Inverse Document Frequency) representation to identify the most relevant document for a given query.
 
